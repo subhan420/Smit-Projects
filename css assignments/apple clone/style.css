@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    font-family: "TASA Explorer", sans-serif;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: auto;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    opacity: 0.8;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 30px;
+    padding: 0px 8px;
+}
+
+.panel-options p{
+    font-size: 0.75rem;
+    margin: 0px 12px;
+    color: white;
+    display: inline;
+}
+
+/* hero section */
+
+.hero-section{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #121933;
+    flex-flow: wrap;      
+}
+
+.hero-section-bgimg {
+    height: 500px;
+    width: 1000px;
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ase-header-hero-202511_FMT_WHH?wid=632&hei=370&fmt=png-alpha&.v=YnRtS1pvZW0xTkRGTDArTFMxM1dkenphdStCWGxWeDVsdXQzSXc2R1hGaFZRSkNrcnJodUZnRmtxTWx3UVhTeDAzOVFHb3N0MkVmS01ZcFh0d1Y4R3R3ODJvQnU4ZjIvMjZvdWFFTjNnVUE);
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.hero-section-text {
+    color: white;
+    font-size: 2rem;
+    margin-top: -200px;
+    text-align: center;
+}
+
+.learn-more{
+    background-color: #007aff;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.learn-more:hover{
+    background-color: #0071E3;
+}
+
+/* iphone 17 section */
+
+.iphone-17-section{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    height: 580px;
+}
+
+.iphone-17-sec-text{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.buy{
+    border: 1px solid #007aff;
+    color: #007aff;
+    padding: 12px 28px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buy:hover{
+    background-color: #0071E3;
+    color: white;
+}
+
+.tera-iphone-pic {
+    background-image: url(/assest/tera\ iphone\ 1.png);
+    height: 100%;
+    width: 100%;
+    margin-top: -148px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain    ;
+    display: flex;
+    justify-content: center;
+}
+
+/* iphone air section */
+
+.iphone-air-section{
+    margin-top: 10px;
+    height: 700px;
+}
+
+.iphone-air-text{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.iphone-air-pic{
+    background-image: url(/assest/iphone\ air\ 1.png);
+    height: 580px;
+    width: 100%; 
+    margin-right: -10px;   
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* the four images section */
+
+.the-four-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#box1, #box2, #box3 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    height: 568px;
+    width: 48%;
+    margin-top: 20px;
+}
+
+.box-text{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#box2 .box-image{
+    height: 220px;
+}   
+
+#box3{
+    background: linear-gradient(to bottom, #AEDDEF, white);
+}
+
+#box3 .box-image{
+    width: 130%;
+}
+
+/* last section */
+
+.footer{
+    font-size: 0.75rem;
+    padding: 50px;
+}
+
+
+.yap-section{
+    height: 300px;
+    width: 100%;
+}
+
+.yap-section p{
+    margin-bottom: 10px;
+}
+
+.ul-footer-section{
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.end{
+    text-align: center;
+}
+
+.copyright-section{
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.img{
+    width: 100%;
+    height: 70px;
+    background-image: url("https://www.saylanimit.com/assets/transparent_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+ 
+.register{
+    height: 80px;
+   text-align: bottom;
+   text-align: center;
+}
+
+.table{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}

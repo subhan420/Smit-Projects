@@ -1,0 +1,55 @@
+h1{
+    font-size: 5rem;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 20px;
+  font-size: 1.25rem;
+}
+
+
+.pink{
+    background-color: #EAA0FF;
+    border: 1px solid pink;
+}
+
+.aqua{
+    background-color: #7FF8FD;
+    border: 1px solid aqua;
+}
+
+.yellow{
+    background-color: #FFF4C8;
+    border: 1px solid yellow;
+}
+
+.orange{
+    background-color: #FED2BB;
+    border: 1px solid orange;
+}
+
+.red{
+    background-color: #FD9E9A;
+    border: 1px solid red;
+}
+
+.hotpink{
+    background-color: #FDC1E9;
+    border: 1px solid hotpink;
+}
+
+.darkblue{
+    background-color: #9FB1FF;
+    border: 1px solid #737CC4;
+}
+
+.darkpink{
+    background-color: #D3BCFF;
+    border: 1px solid #917BC2;
+}
+
+.skyblue{
+    background-color: #B5E6FC;
+    border: 1px solid #8DCDE9;
+}

@@ -1,0 +1,102 @@
+.white-pawn{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/wp.png");
+}
+
+.white-rook{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/wr.png");
+}
+
+.white-knight{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/wn.png");
+}
+
+.white-bishop{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/wb.png");
+}
+
+.white-queen{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/wq.png");
+}
+
+.white-king{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/wk.png");
+}
+
+.black-pawn{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/bp.png");
+}
+
+.black-rook{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/br.png");
+}
+
+.black-knight{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/bn.png");
+}
+
+.black-bishop{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/bb.png");
+}
+
+.black-queen{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/bq.png");
+}
+
+.black-king{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://assets-themes.chess.com/image/ejgfv/150/bk.png");
+}
+
+.blank-space{
+    width: 100px;
+    height: 100px;
+}
+
+table{
+    border: 1px solid black;
+}
+
+td sup {
+    font-size:   15px;
+    text-align: center;
+}
+
+td sub {
+    font-size: 12px;
+    vertical-align: bottom;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    position: fixed;
+    left: 0;
+    background-color: #54B564;
+    width: 59px;
+    height: 59px;
+    top: 161px;
+}
+
+.top-section-1 {
+    height: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.ul-top-section{
+    list-style-type: none;
+    height: 62px;
+    width: 913px;
+    display: flex;
+}
+
+.pokemon-logo {
+    height: 64px;
+    width: 99px;
+    padding: 9px 10px 8px 10px;
+    box-shadow: 0 0 7px 1px #666666;
+    -webkit-box-shadow: 0 0 7px 1px #666666;
+    -moz-box-shadow: 0 0 7px 1px #666666;
+}
+
+.shop-logo{
+    padding: 9px 10px 8px 10px;
+    height: 64px;
+    width: 99px;
+}
+
+.aboutus-logo{
+    padding: 9px 10px 8px 10px;
+    height: 64px;
+    width: 99px;
+}
+
+.pokemon-TCG-logo{
+    margin: 6px 0 6px 7px;
+}
+
+.pokemon-legend-ZA-logo{
+    margin: 6px 0 6px 7px;
+}
+
+.pokemon-forum-logo{
+    margin: 6px 0 6px 7px;
+}
