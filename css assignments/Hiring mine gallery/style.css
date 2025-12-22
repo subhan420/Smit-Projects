@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #212126;
+}
+
+h1{
+    color: white;
+}
+
+span{
+    color: #6851ff;
+}
+
+.header{
+    font-size: 1.35rem ;
+}
+
+.header h1, .header span{
+    text-align: center;
+}
+
+.main-gallery{
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(13, 50px);
+    gap: 15px;
+}
+
+.images{
+    transition: transform 0.3s;
+}
+
+.images:hover{
+    transform: scale(1.05);
+}
+
+#one-image{
+    background-image: url("/assest/1-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 4 / 1 / 7 / 5;
+}
+
+#two-image{
+    background-image: url("/assest/2-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 2 / 5 / 5 / 8;
+    
+}
+
+#three-image{
+    background-image: url("/assest/3-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 1 / 8 / 5 / 12;
+}
+
+#four-image{
+    background-image: url("/assest/4-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 7 / 1 / 10 / 5;
+    
+}
+
+#five-image{
+    background-image: url("/assest/5-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 5 / 5 / 10 / 10;
+    
+}
+
+#six-image{
+    background-image: url("/assest/6-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 5 / 10 / 7 / 14;
+    
+}
+
+#seven-image{
+    background-image: url("/assest/7-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 10 / 3 / 14 / 7;
+    
+}
+
+#eight-image{
+    background-image: url("/assest/8-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 7 / 10 / 12 / 14;
+    
+}
+
+#nine-image{
+    background-image: url("/assest/9-img-hiringmine-assignment.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    grid-area: 10 / 7 / 14 / 10;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
