@@ -1,60 +1,243 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.login{
-    position: fixed;
-    left: 0;
-    background-color: #54B564;
-    width: 59px;
-    height: 59px;
-    top: 161px;
-}
+/* top-section-1 */
 
 .top-section-1 {
-    height: 62px;
-    display: flex;
-    justify-content: center;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #DEDEDE;
 }
 
-.ul-top-section{
-    list-style-type: none;
-    height: 62px;
-    width: 913px;
-    display: flex;
+.ul-top-section-1 {
+  list-style-type: none;
+  height: 62px;
+  width: 913px;
+  display: flex;
 }
 
 .pokemon-logo {
-    height: 64px;
-    width: 99px;
-    padding: 9px 10px 8px 10px;
-    box-shadow: 0 0 7px 1px #666666;
-    -webkit-box-shadow: 0 0 7px 1px #666666;
-    -moz-box-shadow: 0 0 7px 1px #666666;
+  height: 64px;
+  width: 99px;
+  padding: 9px 10px 8px 10px;
+  box-shadow: 0 0 7px 1px #666666;
+  -webkit-box-shadow: 0 0 7px 1px #666666;
+  -moz-box-shadow: 0 0 7px 1px #666666;
 }
 
-.shop-logo{
-    padding: 9px 10px 8px 10px;
-    height: 64px;
-    width: 99px;
+.shop-logo {
+  padding: 9px 10px 8px 10px;
+  height: 64px;
+  width: 99px;
 }
 
-.aboutus-logo{
-    padding: 9px 10px 8px 10px;
-    height: 64px;
-    width: 99px;
+.aboutus-logo {
+  padding: 9px 10px 8px 10px;
+  height: 64px;
+  width: 99px;
 }
 
-.pokemon-TCG-logo{
-    margin: 6px 0 6px 7px;
+.pokemon-TCG-logo {
+  margin: 6px 0 6px 7px;
 }
 
-.pokemon-legend-ZA-logo{
-    margin: 6px 0 6px 7px;
+.pokemon-legend-ZA-logo {
+  margin: 6px 0 6px 7px;
 }
 
-.pokemon-forum-logo{
-    margin: 6px 0 6px 7px;
+.pokemon-forum-logo {
+  margin: 6px 0 6px 7px;
 }
+
+/* top-section-2 */
+
+.ul-top-section-2 {
+  list-style-type: none;
+  height: 89px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.Home {
+  background-color: #919191;
+  color: white;
+  height: 87px;
+  width: 127.84px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .Home:hover {
+  background-color: #919191;
+  color: white;
+} */
+
+.pokedex {
+  background-color: white;
+  color: #919191;
+  height: 87px;
+  width: 127.84px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.pokedex:hover {
+  background-color: #e3350d;
+  color: white;
+}
+
+.pokedex::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #e3350d;
+}
+
+.video-games-apps {
+  background-color: white;
+  color: #919191;
+  height: 87px;
+  width: 127.84px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.video-games-apps:hover {
+  background-color: #ee6b2f;
+  color: white;
+}
+
+.video-games-apps::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #ee6b2f;
+}
+
+.TCG {
+  background-color: white;
+  color: #919191;
+  height: 87px;
+  width: 127.84px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+  justify-content: center;
+}
+
+.TCG:hover {
+  background-color: #e6bc2f;
+  color: white;
+}
+
+.TCG::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #e6bc2f;
+}
+
+.animation {
+  background-color: white;
+  color: #919191;
+  height: 87px;
+  width: 127.84px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+  justify-content: center;
+}
+
+.animation:hover {
+  background-color: #4dad5b;
+  color: white;
+}
+
+.animation::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #4dad5b;
+}
+
+.events {
+  color: #919191;
+  background-color: white;
+  height: 87px;
+  width: 127.84px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+  justify-content: center;
+}
+
+.events:hover {
+  background-color: #30a7d7;
+  color: white;
+}
+
+.events::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #30a7d7;
+}
+
+.news {
+  background-color: white;
+  color: #919191;
+  height: 87px;
+  width: 127.84px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+  justify-content: center;
+}
+
+.news:hover {
+  background-color: #1b53ba;
+  color: white;
+} 
+
+.news::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #1b53ba;
+} 
+
+/* first image section */
