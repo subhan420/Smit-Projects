@@ -10,11 +10,12 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
 
-.main-div {
+#main-div {
   background-color: black;
   width: 70%;
   height: fit-content;

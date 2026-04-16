@@ -833,12 +833,6 @@ const colors = [
     "rgb": "RGB(47, 79, 79)",
     "families": ["gray",  "slate", "dark"]
   },
-  {
-    "name": "BLACK",
-    "hex": "#000000",
-    "rgb": "RGB(0, 0, 0)",
-    "families": ["black"]
-  }
 ]
 
 function pickRdmColor() {
