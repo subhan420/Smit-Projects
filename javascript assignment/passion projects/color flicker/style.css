@@ -22,13 +22,15 @@ body {
   padding: 10px;
   border-radius: 10px;
   color: white;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
 }
 
-#color-change {
+#color-change,
+#custom-color-btn {
   background-color: black;
   width: max-content;
   height: fit-content;
@@ -38,14 +40,34 @@ body {
   font-size: 2rem;
 }
 
+label,
+#custom-color {
+  background-color: black;
+  width: max-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
 @media (max-width: 430px) {
-  .main-div h3, #color-change {
+  .main-div h3,
+  #color-change,
+  label,
+  #custom-color {
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 770px) {
-  .main-div h3, #color-change {
+  .main-div h3,
+  #color-change,
+  label,
+  #custom-color {
     font-size: 2.5rem;
   }
 }
