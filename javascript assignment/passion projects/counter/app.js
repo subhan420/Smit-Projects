@@ -32,21 +32,3 @@ function plusCount() {
   value.textContent = count;
   updateColor();
 }
-
-// decrease.addEventListener("click", () => {
-//   count--;
-//   value.textContent = count;
-//   updateColor();
-// });
-
-// increase.addEventListener("click", () => {
-//   count++;
-//   value.textContent = count;
-//   updateColor();
-// });
-
-// reset.addEventListener("click", () => {
-//   count = 0;
-//   value.textContent = count;
-//   updateColor();
-// });
